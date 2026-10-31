@@ -19,7 +19,7 @@ from github_analyser.llm import build_reviewer
 from github_analyser.scoring import Score
 from github_analyser.workflow import run_review
 
-st.set_page_config(page_title="Git-Blame", page_icon="🧭", layout="centered")
+st.set_page_config(page_title="Repo-Lens", page_icon="🧭", layout="centered")
 
 USERNAME_PATTERN = re.compile(r"[A-Za-z0-9][A-Za-z0-9-]{0,38}")
 PROFILE_TTL_SECONDS = 3600
@@ -163,7 +163,7 @@ def show_result(result: dict) -> None:
 
 
 def main() -> None:
-    st.title("Git-Blame")
+    st.title("Repo-Lens")
     st.caption("Enter a GitHub username to get a score, charts and an AI review.")
     settings = load_settings()
 
