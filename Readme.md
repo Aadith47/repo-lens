@@ -2,11 +2,9 @@
 
 See your GitHub profile the way a recruiter does, and get a plan to improve it.
 
-[![Tests](https://github.com/Aadith47/repolens/actions/workflows/test.yml/badge.svg)](https://github.com/Aadith47/repolens/actions/workflows/test.yml)
+**Live app:** https://repo-lens2.streamlit.app/
 
-**Live app:** https://YOUR-APP-NAME.streamlit.app
-
-![RepoLens screenshot](docs/screenshot.png)
+![RepoLens screenshot](assets/screenshot.png)
 
 Enter a GitHub username. RepoLens reads the public data, scores the profile out of 100 with plain
 Python, draws charts, and then asks an LLM to explain the result: strengths, weaknesses,
